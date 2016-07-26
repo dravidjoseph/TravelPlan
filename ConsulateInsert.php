@@ -20,5 +20,6 @@ else{
 }
 	
 include 'close.php';
+header("Location: http://people.eecs.ku.edu/~djoseph/TravelPlan/USConsulateProcessing.html");
 	
 ?>
