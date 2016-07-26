@@ -14,7 +14,6 @@ VALUES ('$city','$state','$country','$address','$zip')";
 
 if($mysqli->query($insert) === TRUE){
 	echo "New record created successfully!";
-	sleep(5);
 }
 else{
 	echo"Error: ". $insert . "<br>".$mysqli->error;
